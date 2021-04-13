@@ -1,0 +1,26 @@
+error "Please use make makepkg to build pkg in archlinux"
+exit 1
+# Maintainer: BigfootACA <bigfoot@classfun.cn>
+pkgname=ipcalc
+pkgver=@VERSION@
+pkgrel=1
+pkgdesc="IP Calculator library for C and a simple IP Calculator"
+arch=(x86_64)
+url="https://classfun.cn"
+license=('LGPL3')
+depends=()
+makedepends=(gcc glibc patchelf make binutils sed coreutils util-linux bash)
+optdepends=("pkgconf: libipcalc pkgconf support")
+provides=(libipcalculator.so ipcalc)
+changelog=ChangeLog.txt
+conflicts=(ipcalc)
+replaces=(ipcalc)
+options=(staticlibs)
+source=(License.txt ChangeLog.txt ipcalc.h ipcalc.c interface_getifaddrs.c interface_netlink.c interface_windows.c ipcalc_result.c ipcalc_usage.c ipcalc_internal.c ipcalc_public.c ipcalc_internal.h ipv4_print.c ipv4_check.c ipv4_convert.c ipv4_get.c ipv4_type.c ipv4_object.c ipv4_parse.c ipv4_misc.c ipv4.h libipcalculator.pc.in Makefile)
+md5sums=('SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP')
+build(){ make NO_RPATH=1 -j "$(nproc)"; }
+package() {
+	make NO_RPATH=1 DESTDIR="$pkgdir" install
+	mkdir -p "$pkgdir/usr/share/licenses/ipcalc"
+	cp License.txt "$pkgdir/usr/share/licenses/ipcalc/"
+}

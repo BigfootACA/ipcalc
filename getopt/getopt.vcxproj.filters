@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="Source">
+			<UniqueIdentifier>{021C2337-DF14-4BAF-82D1-23760AA9FD8D}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="getopt.h">
+			<Filter>Source</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="getopt.c">
+			<Filter>Source</Filter>
+		</ClCompile>
+		<ClCompile Include="getopt_long.c">
+			<Filter>Source</Filter>
+		</ClCompile>
+	</ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+IP Calculator library for C and IP Calculator
+Version v1.1.1.1
+	+ Merge MFC version ipcalc-gui for windows
+	+ Project rename from ipv4 to ipcalc
+	+ Rename libipv4 to libipcalculator
+	+ Prepare IPv6 support
+	+ Fix some idents
+	+ Fix C++ compiler support
+	+ Spilt ipv4.c into multiple files
+	+ Add interface support for Windows
+	+ Support IDE Visual Studio 2015
+	+ Support IDE Visual Studio 2017
+	+ Support IDE Visual Studio 2019
+	+ Support compiler Visual Studio 2015
+	+ Support compiler Visual Studio 2017
+	+ Support compiler Visual Studio 2019
+	+ Add Chinese comments
+
+IPv4 library for C and IPv4 Calculator
+Version v1.1.0.1
+	+ IPv4 library for C
+	+ C and IPv4 Calculator
+	+ Support build system CMake
+	+ Support build system Meson
+	+ Support build system Makefile
+	+ Support build system CMake
+	+ Support IDE Dev-C++
+	+ Support IDE Clion
+	+ Support IDE Visual Studio Code
+	+ Support compiler x86_64 GCC GNU libc 5.5.0
+	+ Support compiler x86_64 GCC GNU libc 6.5.0
+	+ Support compiler x86_64 GCC GNU libc 7.5.0
+	+ Support compiler x86_64 GCC GNU libc 8.4.0
+	+ Support compiler x86_64 GCC GNU libc 9.3.0
+	+ Support compiler x86_64 GCC GNU libc 10.1.0
+	+ Support compiler x86_64 GCC MUSL libc 10.1.0
+	+ Support compiler x86_64 GCC MinGW 10.1.0
+	+ Support compiler i686 GCC GNU libc 10.1.0
+	+ Support compiler i686 GCC MinGW 10.1.0
+	+ Support compiler arm GCC GNU libc 9.1.0
+	+ Support compiler aarch64 GCC GNU libc 10.1.0
+	+ Support compiler riscv64 GCC GNU libc 10.1.0
+	+ Support compiler x86_64 clang GNU libc 10.0.0
+	+ Support compiler i686 GCC MinGW 4.6.2 for Dev-C++

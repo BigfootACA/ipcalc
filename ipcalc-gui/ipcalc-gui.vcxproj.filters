@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="Dialog About">
+			<UniqueIdentifier>{BFC469B0-E02F-4444-B13F-1A3D0D19FC80}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Dialog IPv4-Calculator">
+			<UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Dialog IPv6-Calculator">
+			<UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Global">
+			<UniqueIdentifier>{55C70E83-F44C-4650-92C0-82AAEA9E1E8A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Resource">
+			<UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="ipv4calc\ipv4calc.h">
+			<Filter>Dialog IPv4-Calculator</Filter>
+		</ClInclude>
+		<ClInclude Include="global\ipcalc.h">
+			<Filter>Global</Filter>
+		</ClInclude>
+		<ClInclude Include="global\stdafx.h">
+			<Filter>Global</Filter>
+		</ClInclude>
+		<ClInclude Include="global\targetver.h">
+			<Filter>Global</Filter>
+		</ClInclude>
+		<ClInclude Include="global\resource.h">
+			<Filter>Resource</Filter>
+		</ClInclude>
+		<ClInclude Include="abouts\abouts.h">
+			<Filter>Dialog About</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="ipv4calc\ipv4calc.cpp">
+			<Filter>Dialog IPv4-Calculator</Filter>
+		</ClCompile>
+		<ClCompile Include="global\ipcalc.cpp">
+			<Filter>Global</Filter>
+		</ClCompile>
+		<ClCompile Include="global\stdafx.cpp">
+			<Filter>Global</Filter>
+		</ClCompile>
+		<ClCompile Include="abouts\abouts.cpp">
+			<Filter>Dialog About</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="..\data\ipcalc-gui.rc">
+			<Filter>Resource</Filter>
+		</ResourceCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Image Include="..\data\ipcalc.ico">
+			<Filter>Resource</Filter>
+		</Image>
+	</ItemGroup>
+</Project>

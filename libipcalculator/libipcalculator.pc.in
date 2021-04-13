@@ -1,0 +1,6 @@
+Name: libipcalculator
+Description: IP Calculator library for C
+Version: @VERSION@
+Requires:
+Libs:  -L@LIBDIR@ -lipcalculator @LIBS@
+Cflags: -I@INCDIR@ -DIPCALC_VERSION=\"@VERSION@\"

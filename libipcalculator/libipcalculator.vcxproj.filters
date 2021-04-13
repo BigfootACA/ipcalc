@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="IPv4 Library">
+			<UniqueIdentifier>{1B293646-FFE7-450D-A115-EE2C58EDF2B7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="IPv6 Library">
+			<UniqueIdentifier>{EC318687-A05C-42BA-BF02-6EF4B0736206}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Global Library">
+			<UniqueIdentifier>{0BA4E243-C48B-4898-B573-B00F902D5191}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Resource">
+			<UniqueIdentifier>{048E1BCA-847F-49D8-B20A-7AA89778872B}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="ipcalc_internal.h">
+			<Filter>Global Library</Filter>
+		</ClInclude>
+		<ClInclude Include="ipv4.h">
+			<Filter>IPv4 Library</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="ipcalc_internal.c">
+			<Filter>Global Library</Filter>
+		</ClCompile>
+		<ClCompile Include="ipcalc_public.c">
+			<Filter>Global Library</Filter>
+		</ClCompile>
+		<ClCompile Include="ipv4_check.c">
+			<Filter>IPv4 Library</Filter>
+		</ClCompile>
+		<ClCompile Include="ipv4_convert.c">
+			<Filter>IPv4 Library</Filter>
+		</ClCompile>
+		<ClCompile Include="ipv4_get.c">
+			<Filter>IPv4 Library</Filter>
+		</ClCompile>
+		<ClCompile Include="ipv4_misc.c">
+			<Filter>IPv4 Library</Filter>
+		</ClCompile>
+		<ClCompile Include="ipv4_object.c">
+			<Filter>IPv4 Library</Filter>
+		</ClCompile>
+		<ClCompile Include="ipv4_parse.c">
+			<Filter>IPv4 Library</Filter>
+		</ClCompile>
+		<ClCompile Include="ipv4_print.c">
+			<Filter>IPv4 Library</Filter>
+		</ClCompile>
+		<ClCompile Include="ipv4_type.c">
+			<Filter>IPv4 Library</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="..\data\libipcalculator.rc">
+			<Filter>Resource</Filter>
+		</ResourceCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Image Include="..\data\ipcalc.ico">
+			<Filter>Resource</Filter>
+		</Image>
+	</ItemGroup>
+</Project>
