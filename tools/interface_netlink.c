@@ -17,7 +17,7 @@ static int _print_interface_netlink(int fd,char display,char*ifname,bool list){
 	bool success=false;
 	struct sockaddr_nl snl;
 	socklen_t namelen;
-	if((sock=socket(AF_NETLINK,SOCK_RAW,NETLINK_ROUTE))>0){
+	if((sock=socket(AF_NETLINK,SOCK_RAW,NETLINK_ROUTE))<0){
 		return_perror(0,"netlink socket");
 		sock=-1;
 		return print_interface_getifaddrs(fd,display,ifname,list);
