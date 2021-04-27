@@ -3,7 +3,6 @@
 #include<stdlib.h>
 #include<limits.h>
 #include<stdio.h>
-#include<string.h>
 #include"getopt.h"
 #ifdef __cplusplus
 extern "C" {

@@ -7,6 +7,7 @@
 #include<limits.h>
 #include<stdlib.h>
 #include<stdio.h>
+#include"getopt.h"
 #ifdef __cplusplus
 extern "C"{
 #endif
