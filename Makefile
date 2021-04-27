@@ -8,8 +8,13 @@ CCLD=$(CC)
 STRIP=$(CROSS_COMPILE)strip
 WINDRES=$(CROSS_COMPILE)windres
 RANLIB=$(CROSS_COMPILE)ranlib
+PKGCONF=$(CROSS_COMPILE)pkgconf
 CFLAGS=-Wall -Wextra -Werror
-CCFLAGS=-pipe -fPIC -Wno-unused-command-line-argument -Wno-unused-function
+CCFLAGS=-pipe -fPIC
+CCFLAGS+=-Wno-unused-command-line-argument
+CCFLAGS+=-Wno-unused-parameter
+CCFLAGS+=-Wno-unused-function
+CCFLAGS+=-Wno-deprecated-declarations
 LDFLAGS=-L.
 LIBS=
 ifndef NDEBUG
