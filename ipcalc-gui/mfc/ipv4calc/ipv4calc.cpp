@@ -1,8 +1,8 @@
-﻿#include"../global/stdafx.h"
-#include"../global/resource.h"
-#include"../global/ipcalc.h"
-#include"../abouts/abouts.h"
-#include"../../libipcalculator/ipv4.h"
+﻿#include"../../global/stdafx.h"
+#include"../../global/resource.h"
+#include"../../global/ipcalc.h"
+#include"../../abouts/abouts.h"
+#include"../../../libipcalculator/ipv4.h"
 #include"ipv4calc.h"
 #include"afxdialogex.h"
 #ifdef _DEBUG

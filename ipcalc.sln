@@ -9,7 +9,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ipcalc", "tools\ipcalc.vcxp
 		{111CC9FB-CD9F-43CD-B1B3-267070408A0A} = {111CC9FB-CD9F-43CD-B1B3-267070408A0A}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ipcalc-gui", "ipcalc-gui\ipcalc-gui.vcxproj", "{D9CD84C4-3C07-48D3-ADA9-ADC9C99D8957}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ipcalc-gui", "ipcalc-gui\mfc\ipcalc-gui.vcxproj", "{D9CD84C4-3C07-48D3-ADA9-ADC9C99D8957}"
 	ProjectSection(ProjectDependencies) = postProject
 		{111CC9FB-CD9F-43CD-B1B3-267070408A0A} = {111CC9FB-CD9F-43CD-B1B3-267070408A0A}
 	EndProjectSection

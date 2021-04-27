@@ -1,5 +1,5 @@
-﻿#include"../global/stdafx.h"
-#include"../global/resource.h"
+﻿#include"../../global/stdafx.h"
+#include"../../global/resource.h"
 #include"abouts.h"
 #include"afxdialogex.h"
 #ifdef _DEBUG

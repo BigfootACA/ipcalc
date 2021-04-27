@@ -19,7 +19,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\libipcalculator\libipcalculator.vcxproj">
+		<ProjectReference Include="..\..\libipcalculator\libipcalculator.vcxproj">
 			<Project>{111cc9fb-cd9f-43cd-b1b3-267070408a0a}</Project>
 		</ProjectReference>
 	</ItemGroup>
@@ -202,10 +202,10 @@
 		<ClCompile Include="global\stdafx.cpp"/>
 	</ItemGroup>
 	<ItemGroup>
-		<ResourceCompile Include="..\data\ipcalc-gui.rc" />
+		<ResourceCompile Include="..\..\data\ipcalc-gui.rc" />
 	</ItemGroup>
 	<ItemGroup>
-		<Image Include="..\data\ipcalc.ico" />
+		<Image Include="..\..\data\ipcalc.ico" />
 	</ItemGroup>
 	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 	<ImportGroup Label="ExtensionTargets">

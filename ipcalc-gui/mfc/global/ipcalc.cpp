@@ -1,6 +1,6 @@
 ﻿#include"stdafx.h"
 #include"ipcalc.h"
-#include"../ipv4calc/ipv4calc.h"
+#include"../../ipv4calc/ipv4calc.h"
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif

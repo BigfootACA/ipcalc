@@ -52,12 +52,12 @@
 		</ClCompile>
 	</ItemGroup>
 	<ItemGroup>
-		<ResourceCompile Include="..\data\ipcalc-gui.rc">
+		<ResourceCompile Include="..\..\data\ipcalc-gui.rc">
 			<Filter>Resource</Filter>
 		</ResourceCompile>
 	</ItemGroup>
 	<ItemGroup>
-		<Image Include="..\data\ipcalc.ico">
+		<Image Include="..\..\data\ipcalc.ico">
 			<Filter>Resource</Filter>
 		</Image>
 	</ItemGroup>
