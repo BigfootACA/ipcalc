@@ -52,7 +52,6 @@ int main(int argc,char**argv){
 	#else
 	s='U';/*UTF-8字符*/
 	#endif
-	;
 	char*interface=NULL;
 	bool all=false,list=false;
 	int c,off=-1;
