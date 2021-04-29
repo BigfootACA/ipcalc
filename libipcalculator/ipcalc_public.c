@@ -2,7 +2,6 @@
 #include"ipv4.h"
 #include<string.h>
 #include<stdlib.h>
-#include<stdbool.h>
 #ifdef __cplusplus
 extern "C"{
 #endif
@@ -10,11 +9,8 @@ extern "C"{
 unsigned long dec2bin(unsigned long dec){
 	long p=1,y;
 	unsigned long r=0;
-	while(true){
-		y=dec%2;
-		dec/=2;
-		r+=y*p;
-		p*=10;
+	while(1){
+		y=dec%2,dec/=2,r+=y*p,p*=10;
 		if(dec<2){
 			r+=dec*p;
 			break;
